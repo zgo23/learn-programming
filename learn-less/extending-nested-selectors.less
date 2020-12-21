@@ -1,0 +1,18 @@
+// .bucket {
+//     tr {
+//         color: blue;
+//     }
+// }
+// .some-class {
+//     &:extend(.bucket tr);
+// }
+
+.bucket {
+    tr & {
+        color: blue;
+    }
+}
+
+.some-class {
+    &:extend(tr .bucket);
+}

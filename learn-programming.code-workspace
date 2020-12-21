@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "name": "docs",
+            "path": "docs"
+        },
+        {
+            "name": "learn-react-hooks-chapter1-1",
+            "path": "learn-react-hooks/chapter1_1"
+        },
+        {
+            "name": "learn-react-hooks-chapter1-2",
+            "path": "learn-react-hooks/chapter1_2"
+        },
+        {
+            "path": "learn-less"
+        },
+        {
+            "path": "teach-yourself-bootstrap-in-24-hours"
+        }
+    ],
+    "settings": {}
+}
