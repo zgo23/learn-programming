@@ -17,6 +17,14 @@
         },
         {
             "path": "teach-yourself-bootstrap-in-24-hours"
+        },
+        {
+            "name": "parptn-simple-counter",
+            "path": "publish-a-react-package-to-npm/simple-counter"
+        },
+        {
+            "name": "parptn-simple-counter-demo",
+            "path": "publish-a-react-package-to-npm/simple-counter-demo"
         }
     ],
     "settings": {}
