@@ -25,6 +25,9 @@
         {
             "name": "parptn-simple-counter-demo",
             "path": "publish-a-react-package-to-npm/simple-counter-demo"
+        },
+        {
+            "path": "test-react-tagarea"
         }
     ],
     "settings": {}
