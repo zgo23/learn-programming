@@ -6,6 +6,8 @@
 
 -   (Live edit and debug your React apps directly from VS Code — without leaving the editor) [https://medium.com/@auchenberg/live-edit-and-debug-your-react-apps-directly-from-vs-code-without-leaving-the-editor-3da489ed905f]
 
+# CRA .env
+
 # Lerna
 
 -   A tool for managing JavaScript projects with multiple packages.
@@ -43,3 +45,9 @@
 # React Component Packaging and Publishing
 
 -   (How to share React Components between Applications via NPM)[https://nosleepjavascript.com/package-react-components/]
+
+# npx
+
+-   npx looks into the local /node_modules folder for the package and if it can’t find it, it will download and run it without having that package globally installed.
+-   You can use npx to run any GitHub gists and repositories.
+-   use **degit** to download folders from GitHub, e.g. `npx degit chromaui/learnstorybook-code/src/assets/icon src/assets/icon`
