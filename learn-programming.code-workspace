@@ -28,6 +28,9 @@
         },
         {
             "path": "test-react-tagarea"
+        },
+        {
+            "path": "gsw-lerna"
         }
     ],
     "settings": {}
