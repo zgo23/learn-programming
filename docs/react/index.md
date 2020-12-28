@@ -16,6 +16,8 @@
 
 -   Debug
     -   (live debugging of storybook in chrome with vscode)[https://stephenweiss.dev/debug-storybook-chrome-vscode/]
+-   The story is a function that returns a rendered element (i.e. a component with a set of props) in a given state---exactly like a Stateless Functional Component.
+-   Template.bind({}) is a standard JavaScript technique for making a copy of a function.
 
 # SourceMap
 
@@ -51,3 +53,7 @@
 -   npx looks into the local /node_modules folder for the package and if it can’t find it, it will download and run it without having that package globally installed.
 -   You can use npx to run any GitHub gists and repositories.
 -   use **degit** to download folders from GitHub, e.g. `npx degit chromaui/learnstorybook-code/src/assets/icon src/assets/icon`
+
+# Component-Driven Development(CDD)
+
+-   a process that builds UIs from the “bottom up” starting with components and ending with screens.
