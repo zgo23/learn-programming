@@ -47,6 +47,8 @@
 # React Component Packaging and Publishing
 
 -   (How to share React Components between Applications via NPM)[https://nosleepjavascript.com/package-react-components/]
+-   (How to publish packages to npm (the way the industry does things)) [https://zellwk.com/blog/publish-to-npm/]
+    -   Use the `npx np` command
 
 # npx
 
@@ -57,3 +59,20 @@
 # Component-Driven Development(CDD)
 
 -   a process that builds UIs from the “bottom up” starting with components and ending with screens.
+
+# OS
+
+-   Windows keyboards have a backspace key and a delete key. ... The delete key on a Mac, however, acts like the backspace key on a Windows keyboard. That is, it deletes the character to the left of the cursor. The delete key on a Windows keyboard does the opposite and deletes the character to the right of the cursor.
+-   You shouldn't use the keypress event, but the keyup or keydown event because the keypress event is intended for real (printable) characters. keydown is handled at a lower level so it will capture all nonprinting keys like delete and enter.
+
+# Backend
+
+-   npx -p express-generator express --view=pug packages/server
+
+# W3C
+
+-   (Event Order)[https://www.quirksmode.org/js/events_order.html#link4]
+
+# Performance
+
+-   (Debounce, Throttle & requestAnimationFrame)[https://css-tricks.com/debouncing-throttling-explained-examples/]

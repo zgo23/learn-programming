@@ -5,28 +5,6 @@
             "path": "docs"
         },
         {
-            "name": "learn-react-hooks-chapter1-1",
-            "path": "learn-react-hooks/chapter1_1"
-        },
-        {
-            "name": "learn-react-hooks-chapter1-2",
-            "path": "learn-react-hooks/chapter1_2"
-        },
-        {
-            "path": "learn-less"
-        },
-        {
-            "path": "teach-yourself-bootstrap-in-24-hours"
-        },
-        {
-            "name": "parptn-simple-counter",
-            "path": "publish-a-react-package-to-npm/simple-counter"
-        },
-        {
-            "name": "parptn-simple-counter-demo",
-            "path": "publish-a-react-package-to-npm/simple-counter-demo"
-        },
-        {
             "path": "test-react-tagarea"
         },
         {
@@ -35,6 +13,9 @@
         {
             "name": "learn-storybook-taskbox",
             "path": "taskbox"
+        },
+        {
+            "path": "example-monorepo"
         }
     ],
     "settings": {}
