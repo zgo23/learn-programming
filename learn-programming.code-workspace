@@ -5,17 +5,10 @@
             "path": "docs"
         },
         {
-            "path": "test-react-tagarea"
+            "path": "a-sample-typescript-project"
         },
         {
-            "path": "gsw-lerna"
-        },
-        {
-            "name": "learn-storybook-taskbox",
-            "path": "taskbox"
-        },
-        {
-            "path": "example-monorepo"
+            "path": "typescript-type-declaration-files"
         }
     ],
     "settings": {}

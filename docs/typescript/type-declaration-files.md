@@ -1,0 +1,6 @@
+-   (A quick introduction to “Type Declaration” files and adding type support to your JavaScript packages)[https://medium.com/jspoint/typescript-type-declaration-files-4b29077c43]
+-   A Type Declaration file, as the name suggests, only contains the type declarations and not the actual source code (business logic). These files are meant to only provide aid to the development process and not become part of the compilation itself.
+-   Global type declarations are exposed to every TypeScript program (included in the compilation) without having to explicitly import them E.g. the type delcaration for the Promise class
+-   Standard Library?
+-   An ambient value is a value that can exist only at the runtime.
+-   Type declaration files are meant to only provide aid to the development process and not become part of the compilation itself.

@@ -1,0 +1,5 @@
+-   Precursor of ECMAScript module
+-   Namespaces are a TypeScript feature that compiles to pure JavaScript without require or import statements in the output code.
+-   Since Namespaces do not use a platform-dependent module system and they compile to vanilla JavaScript that we are used to since the stone age, they are called internal modules.
+-   Like a module, you can also export types from a namespace.
+-   Since a namespace is also a value, you can also export a namespace from within a namespace. These are called nested namespaces.
