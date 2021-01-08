@@ -4,3 +4,5 @@
 -   Standard Library?
 -   An ambient value is a value that can exist only at the runtime.
 -   Type declaration files are meant to only provide aid to the development process and not become part of the compilation itself.
+-   The "d.ts" file is used to provide typescript type information about an API that's written in JavaScript.
+-   We call declarations that don’t define an implementation “ambient”.
