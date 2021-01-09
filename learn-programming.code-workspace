@@ -5,10 +5,7 @@
             "path": "docs"
         },
         {
-            "path": "a-sample-typescript-project"
-        },
-        {
-            "path": "typescript-type-declaration-files-2"
+            "path": "trello-clone"
         }
     ],
     "settings": {}
