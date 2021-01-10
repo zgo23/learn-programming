@@ -5,7 +5,10 @@
             "path": "docs"
         },
         {
-            "path": "trello-clone"
+            "path": "amplify-app"
+        },
+        {
+            "path": "amplify-react-app"
         }
     ],
     "settings": {}
