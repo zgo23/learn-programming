@@ -9,6 +9,9 @@
         },
         {
             "path": "amplify-react-app"
+        },
+        {
+            "path": "gsw-express"
         }
     ],
     "settings": {}
