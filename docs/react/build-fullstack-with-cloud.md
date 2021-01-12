@@ -66,6 +66,7 @@
 ## AWS AppSync
 
 -   AWS AppSync is a managed API layer that uses GraphQL to make it easy for applications to interact with any data source, REST API, or microservice.
+-   AppSync is a managed service that allows us to deploy a GraphQL API, resolvers, and data sources quickly and easily using the Amplify CLI.
 
 ## Amazon DynamoDB
 
@@ -80,6 +81,11 @@
 ## React Context for State Management
 
 # Express
+
+# GraphQL
+
+-   GraphQL is an API specification. It is a query language for APIs and a runtime for fulfilling those queries with your data.
+-   A GraphQL API consists of three main parts: schema, resolvers, and data sources
 
 # Concerns
 

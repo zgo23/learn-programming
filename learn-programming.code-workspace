@@ -12,6 +12,9 @@
         },
         {
             "path": "gsw-express"
+        },
+        {
+            "path": "gsw-graphql"
         }
     ],
     "settings": {}
