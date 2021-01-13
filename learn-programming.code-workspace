@@ -15,6 +15,9 @@
         },
         {
             "path": "gsw-graphql"
+        },
+        {
+            "path": "gsw-redux"
         }
     ],
     "settings": {}
