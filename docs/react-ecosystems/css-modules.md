@@ -1,0 +1,3 @@
+-   CSS files in which all class names and animation names are scoped locally by default.
+-   CSS Modules is not an official spec or an implementation in the browser but rather a process in a build step
+-   [the classes] are dynamically generated, unique, and mapped to the correct styles.

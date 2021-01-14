@@ -18,6 +18,12 @@
         },
         {
             "path": "gsw-redux"
+        },
+        {
+            "path": "intro-to-react-ssr"
+        },
+        {
+            "path": "gsw-webpack"
         }
     ],
     "settings": {}
