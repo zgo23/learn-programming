@@ -5,25 +5,16 @@
             "path": "docs"
         },
         {
-            "path": "amplify-app"
-        },
-        {
-            "path": "amplify-react-app"
-        },
-        {
-            "path": "gsw-express"
-        },
-        {
-            "path": "gsw-graphql"
+            "path": "redux-essentials-example"
         },
         {
             "path": "gsw-redux"
         },
         {
-            "path": "intro-to-react-ssr"
+            "path": "gsw-react-hooks"
         },
         {
-            "path": "gsw-webpack"
+            "path": "gsw-typescript"
         }
     ],
     "settings": {}

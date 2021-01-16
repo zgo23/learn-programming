@@ -1,0 +1,3 @@
+-   A pure component is the component that will produce the same results given the same props and state.
+-   it is common to have "container" components that are responsible for collecting and managing some kind of data, and "presentational" components that simply display UI based on whatever data they've received as props.
+-   If performance is a concern, the best way to improve performance is to skip unnecessary re-renders, so that components only re-render when their data has actually changed.

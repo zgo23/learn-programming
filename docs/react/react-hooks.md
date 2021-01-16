@@ -1,2 +1,3 @@
 -   React defers running useEffect until after the browser has painted
 -   If you pass an empty array ([]), the props and state inside the effect will always have their initial values. It means when the cleanup code runs, the props and state are still their initial values.
+-   While the "container/presentational" concept is still valid, hooks push you to write components that are responsible for requesting their own data internally by calling an appropriate hook.
