@@ -15,6 +15,12 @@
         },
         {
             "path": "gsw-typescript"
+        },
+        {
+            "path": "gsw-react"
+        },
+        {
+            "path": "gsw-node-and-ecosystems"
         }
     ],
     "settings": {}

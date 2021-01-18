@@ -1,0 +1,1 @@
+-   view models, lifecycle management, Room database access, the Database Inspector, app navigation, live data and data binding.

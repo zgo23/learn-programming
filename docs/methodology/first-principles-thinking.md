@@ -1,0 +1,7 @@
+-   (Elon Musks’ “3-Step” First Principles Thinking: How to Think and Solve Difficult Problems Like a Genius)[https://medium.com/the-mission/elon-musks-3-step-first-principles-thinking-how-to-think-and-solve-difficult-problems-like-a-ba1e73a9f6c0]
+-   first principles thinking is basically the practice of actively questioning every assumption you think you ‘know’ about a given problem or scenario — and then creating new knowledge and solutions from scratch.
+-   In layman’s terms, first principles thinking is basically the practice of actively questioning every assumption you think you ‘know’ about a given problem or scenario — and then creating new knowledge and solutions from scratch. Almost like a newborn baby.
+-   First Principles Thinking
+    -   STEP 1: Identify and define your current assumptions
+    -   STEP 2: Breakdown the problem into its fundamental principles.
+    -   STEP 3: Create new solutions from scratch

@@ -1,0 +1,1 @@
+-   The main elements of Android Jetpack consist of the Android Studio Integrated Development Environment (IDE), the Android Architecture Components and the Modern App Architecture Guideline.

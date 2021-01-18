@@ -1,0 +1,2 @@
+-   The purpose of the text property with a wrench next to it for a Button
+-   How is a button.onClick event handler bound to a method of an Activity?
