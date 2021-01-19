@@ -8,19 +8,7 @@
             "path": "redux-essentials-example"
         },
         {
-            "path": "gsw-redux"
-        },
-        {
-            "path": "gsw-react-hooks"
-        },
-        {
-            "path": "gsw-typescript"
-        },
-        {
-            "path": "gsw-react"
-        },
-        {
-            "path": "gsw-node-and-ecosystems"
+            "path": "gsw-web-component"
         }
     ],
     "settings": {}
