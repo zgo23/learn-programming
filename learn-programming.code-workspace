@@ -9,6 +9,13 @@
         },
         {
             "path": "gsw-web-component"
+        },
+        {
+            "name": "leetcode",
+            "path": "leetcode"
+        },
+        {
+            "path": "gsw-react"
         }
     ],
     "settings": {}

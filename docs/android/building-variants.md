@@ -1,0 +1,2 @@
+-   Debugging version of the application
+-   Release version of the application

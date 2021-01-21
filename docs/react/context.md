@@ -1,0 +1,1 @@
+-   The primary problem with legacy context was that updates to values passed down via context could be "blocked" if a component skipped rendering via shouldComponentUpdate.

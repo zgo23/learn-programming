@@ -1,0 +1,1 @@
+-   (useEffect vs. useLayoutEffect in plain, approachable language)[https://blog.logrocket.com/useeffect-vs-uselayouteffect/]

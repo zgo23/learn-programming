@@ -26,4 +26,5 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(R.string.no_value_string);
         }
     }
+
 }

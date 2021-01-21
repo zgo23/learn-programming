@@ -97,6 +97,23 @@
         </template>
 
         <template id="one-dialog">
+            <script>
+                document
+                    .getElementById("launch-dialog")
+                    .addEventListener("click", () => {
+                        const wrapper = document.querySelector(".wrapper");
+                        const closeButton = document.querySelector(
+                            "button.close"
+                        );
+                        const wasFocused = document.activeElement;
+                        wrapper.classList.add("open");
+                        closeButton.focus();
+                        closeButton.addEventListener("click", () => {
+                            wrapper.classList.remove("open");
+                            wasFocused.focus();
+                        });
+                    });
+            </script>
             <style>
                 .wrapper {
                     opacity: 0;
@@ -226,10 +243,10 @@
                 document.importNode(template.content, true)
             );
 
-            const launchDialogButton = document.getElementById("launch-dialog");
-            launchDialogButton.addEventListener("click", () => {
-                document.querySelector("one-dialog").open = true;
-            });
+            // const template2 = document.getElementById("one-dialog");
+            // document.body.appendChild(
+            //     document.importNode(template2.content, true)
+            // );
         </script>
     </body>
 </html>

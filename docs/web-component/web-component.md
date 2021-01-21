@@ -10,8 +10,13 @@
 -   Web Components are generally available in all of the major browsers with the exception of Microsoft Edge and Internet Explorer 11, but polyfills exist to fill in those gaps.
 -   the three technologies in the stack can be used independently or collectively.
 -   how the various technologies fit together?
+-   If custom elements are the way to create a new HTML (with a JS API), shadow DOM is the way you provide its HTML and CSS.
 
 -   puzzles
     -   How does the <slot> in a shadow dom work?
     -   What is &mdash;?
     -   What is \<fieldset\>?
+
+# Resources
+
+-   (An Introduction to Web Components)[https://academind.com/tutorials/web-components-introduction/]

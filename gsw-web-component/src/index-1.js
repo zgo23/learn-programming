@@ -5,7 +5,6 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./components/x-search";
 import "./components/one-dialog";
-import "./components/dialog-workflow";
 
 ReactDOM.render(
     <React.StrictMode>

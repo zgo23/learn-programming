@@ -1,0 +1,4 @@
+-   **shift + command + enter**: autocompletes a method, e.g. input "public void foo()" then press this shortchut, the braces are automatically inserted.
+-   **command + p** to see the parameter information of a method.
+-   **control + n** to do code generation
+-   **command + option + L** to do code formatting, **command + option + shift + l** to open Reformat code dialog
