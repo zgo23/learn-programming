@@ -1,29 +1,31 @@
 package com.example.androidsample;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
-import android.widget.EditText;
-import android.widget.TextView;
+
+import com.example.androidsample.databinding.ActivityMainBinding;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
+
+    private ActivityMainBinding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        binding = ActivityMainBinding.inflate(getLayoutInflater());
+        View view = binding.getRoot();
+        setContentView(view);
     }
 
     public void convertCurrency(View view) {
-        EditText dollarText = findViewById(R.id.dollarText);
-        TextView textView = findViewById(R.id.textView);
-        if (!dollarText.getText().toString().equals("")) {
-            Float dollarValue = Float.valueOf(dollarText.getText().toString());
+        if (!binding.dollarText.getText().toString().equals("")) {
+            Float dollarValue = Float.valueOf(binding.dollarText.getText().toString());
             Float euroValue = dollarValue * 0.85F;
-            textView.setText(euroValue.toString());
+            binding.textView.setText(euroValue.toString());
         } else {
-            textView.setText(R.string.no_value_string);
+            binding.textView.setText(R.string.no_value_string);
         }
     }
 
