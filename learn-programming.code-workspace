@@ -5,12 +5,6 @@
             "path": "docs"
         },
         {
-            "path": "redux-essentials-example"
-        },
-        {
-            "path": "gsw-web-component"
-        },
-        {
             "name": "leetcode",
             "path": "leetcode"
         },
@@ -18,7 +12,7 @@
             "path": "trello-clone"
         },
         {
-            "path": "gsw-node-and-ecosystems"
+            "path": "playground-react-ts"
         }
     ],
     "settings": {}
