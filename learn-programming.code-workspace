@@ -15,7 +15,10 @@
             "path": "leetcode"
         },
         {
-            "path": "gsw-react"
+            "path": "trello-clone"
+        },
+        {
+            "path": "gsw-node-and-ecosystems"
         }
     ],
     "settings": {}

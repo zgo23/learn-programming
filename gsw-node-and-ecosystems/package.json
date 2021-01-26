@@ -18,6 +18,7 @@
         "immer:hello": "babel-node src/immer/hello.js",
         "reselect:hello": "babel-node src/reselect/hello.js",
         "interview:output-i": "babel-node src/interview/output-i.js",
-        "interview:fibonacci": "babel-node src/interview/fibonacci.js"
+        "interview:fibonacci": "babel-node src/interview/fibonacci.js",
+        "template-literal:tagged-template": "babel-node src/template-literal/tagged-template.js"
     }
 }
