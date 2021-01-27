@@ -1,0 +1,4 @@
+-   The purpose of a software’s architecture and design is to keep it productive and flexible. Developers need to work on it effectively and modify it without rewriting its core.
+-   If I go above 5 props I consider whether this component should be split.
+-   If you need multiple pieces of state, move them to a reducer instead.
+-   Use absolute path in the import statments

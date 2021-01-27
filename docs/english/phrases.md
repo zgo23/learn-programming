@@ -1,0 +1,15 @@
+-   sprout like mushrooms after rain
+-   stand out among your peers
+-   N.B. means note well
+-   act cool
+-   look at it from a cause and effect point of view
+-   don’t be frightened
+-   It’s worth mentioning that
+-   a service with a free tier
+-   be good to go.
+-   in the top right corner
+-   Why the long face? (为什么板着个脸？)
+-   what happens behind the curtain
+-   give it a shot.
+-   fall short (未达到预期)
+-   Get me wrong (误解我)
