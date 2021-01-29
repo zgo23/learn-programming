@@ -11,6 +11,12 @@
 -   apart from every developer’s local environment for coding and the final, stable environment for production — it’d be good to have a “staging” server to push the features into.
 -   Use the `npx serve -s dist` to check how an app behaves in a simulated server environment.
 
+# CI& CD
+
+-   CI/CD is a process and a methodology designed to make sure that all the code you merge to main is deployable at any time by testing it and deploying it.
+-   If any engineer on your team can merge a set of changes to main, secure in the knowledge that 15 minutes later their changes will have been tested and deployed to production, with no human gates or manual intervention required, then congratulations! You’re doing CI/CD.
+-
+
 # CI
 
 -   repeated testing of our app’s integrity.

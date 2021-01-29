@@ -13,3 +13,6 @@
 -   give it a shot.
 -   fall short (未达到预期)
 -   Get me wrong (误解我)
+-   save your ass
+-   cut my teeth with doing sth(第一次做某事)
+-   no-frills

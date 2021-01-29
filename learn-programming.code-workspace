@@ -13,6 +13,9 @@
         },
         {
             "path": "playground-react-ts"
+        },
+        {
+            "path": "playground-typescript"
         }
     ],
     "settings": {}
