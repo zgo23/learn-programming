@@ -1,0 +1,3 @@
+-   undefined is “used when a variable has not been assigned a value” (source).
+-   null “represents the intentional absence of any object value” (source).
+-   undefined: neither an object nor a primitive value

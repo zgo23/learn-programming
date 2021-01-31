@@ -16,3 +16,7 @@
 -   save your ass
 -   cut my teeth with doing sth(第一次做某事)
 -   no-frills
+-   Some readers might **do a double-take** at this example.
+-   However, TypeScript **takes the stance** that there’s probably a bug in this code.
+-   If you have any questions, **feel free to** leave a response.
+-   my words should be taken with a **grain/pinch of salt**
