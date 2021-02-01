@@ -1,0 +1,1 @@
+-   Casting should be used with care and only if you are absolutely certain you know what the type of the variable will be in any given instance.

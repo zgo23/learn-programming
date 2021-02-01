@@ -1,0 +1,1 @@
+-   For React projects, you must install TypeScript declaration files as ordinary dependencies and not “devDependencies” or you will experience problems, especially when trying to deploy to a service such as Heroku!

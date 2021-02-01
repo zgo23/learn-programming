@@ -12,10 +12,7 @@
             "path": "trello-clone"
         },
         {
-            "path": "playground-react-ts"
-        },
-        {
-            "path": "playground-typescript"
+            "path": "ts-react-crash-course"
         }
     ],
     "settings": {}

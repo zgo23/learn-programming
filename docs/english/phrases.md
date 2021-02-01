@@ -20,3 +20,5 @@
 -   However, TypeScript **takes the stance** that there’s probably a bug in this code.
 -   If you have any questions, **feel free to** leave a response.
 -   my words should be taken with a **grain/pinch of salt**
+-   Here's a **brief tldr**;
+-   get out of hand = get out of control

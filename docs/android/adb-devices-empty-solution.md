@@ -1,0 +1,1 @@
+-   Just restart to phone then the problem disappears.
