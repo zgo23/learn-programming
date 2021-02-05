@@ -1,0 +1,1 @@
+-   you didn’t **shell out**(pay money) for this book to learn about math

@@ -15,3 +15,5 @@ export const store = createStore(
 store.subscribe(() => {
     console.log(store.getState());
 });
+
+let a: Promise;

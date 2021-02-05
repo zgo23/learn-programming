@@ -22,3 +22,4 @@
 -   my words should be taken with a **grain/pinch of salt**
 -   Here's a **brief tldr**;
 -   get out of hand = get out of control
+-   Given the uncertainties in the market, it would be far better to **err on the side of caution**.
