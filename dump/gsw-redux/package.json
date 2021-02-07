@@ -1,0 +1,19 @@
+{
+    "name": "gsw-redux",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@reduxjs/toolkit": "^1.5.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/node": "^7.12.10",
+        "@babel/preset-env": "^7.12.11"
+    },
+    "scripts": {
+        "start": "babel-node index.js",
+        "app-1": "babel-node app-1/app.js"
+    }
+}

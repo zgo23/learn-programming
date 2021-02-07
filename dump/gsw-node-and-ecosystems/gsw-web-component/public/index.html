@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#000000" />
+        <meta
+            name="description"
+            content="Web site created using create-react-app"
+        />
+        <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+        <style type="text/css">
+            label {
+                display: block;
+                margin-bottom: 0.5rem;
+            }
+            #launch-dialog {
+                background: tomato;
+                border-radius: 4px;
+                color: #fff;
+                font-family: Helvetica, Arial, sans-serif;
+                padding: 0.5rem 1rem;
+                position: static;
+            }
+        </style>
+        <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+        <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+        <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+        <title>React App</title>
+    </head>
+    <body>
+        <noscript>You need to enable JavaScript to run this app.</noscript>
+        <!-- Learn web components starts-->
+        <my-component></my-component>
+        <div id="example">This will use the CSS background</div>
+        <button id="button">Not tomato</button>
+        <template id="book-template">
+            <li>
+                <span class="title"></span>&mdash;<span class="author"></span>
+            </li>
+        </template>
+        <template id="book-template-2">
+            <li>
+                <span class="author"></span>'s classic novel
+                <span class="title"></span>
+            </li>
+        </template>
+        <ul id="books"></ul>
+        <fieldset id="templates">
+            <legend>Choose template</legend>
+            <label>
+                <input
+                    type="radio"
+                    name="template"
+                    value="book-template"
+                    checked
+                />Template One
+            </label>
+            <label>
+                <input
+                    type="radio"
+                    name="template"
+                    value="book-template-2"
+                />Template Two
+            </label>
+        </fieldset>
+        <template id="template">
+            <script type="text/javascript">
+                const button = document.getElementById("click-me");
+                button.addEventListener("click", (event) => alert(event));
+            </script>
+            <style type="text/css">
+                #click-me {
+                    all: unset;
+                    background: tomato;
+                    border: 0;
+                    border-radius: 4px;
+                    color: white;
+                    font-family: Helvetica;
+                    font-size: 1.5rem;
+                    padding: 0.5rem 1rem;
+                }
+            </style>
+            <button id="click-me">Log click event</button>
+        </template>
+
+        <template id="one-dialog">
+            <style>
+                .wrapper {
+                    opacity: 0;
+                    transition: visibility 0s, opacity 0.25s ease-in;
+                }
+                .wrapper:not(.open) {
+                    visibility: hidden;
+                }
+                .wrapper.open {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    height: 100vh;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
+                    opacity: 1;
+                    visibility: visible;
+                }
+                .overlay {
+                    background: rgba(0, 0, 0, 0.8);
+                    height: 100%;
+                    position: fixed;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                }
+                .dialog {
+                    background: #ffffff;
+                    max-width: 600px;
+                    padding: 1rem;
+                    position: fixed;
+                }
+                button {
+                    all: unset;
+                    cursor: pointer;
+                    font-size: 1.25rem;
+                    position: absolute;
+                    top: 1rem;
+                    right: 1rem;
+                }
+                button:focus {
+                    border: 2px solid blue;
+                }
+            </style>
+            <div class="wrapper">
+                <div class="overlay"></div>
+                <div
+                    class="dialog"
+                    role="dialog"
+                    aria-labelledby="title"
+                    aria-describedby="content"
+                >
+                    <button class="close" aria-label="Close">
+                        &#x2716;&#xfe0f;
+                    </button>
+                    <h1 id="title">Hello world</h1>
+                    <div id="content" class="content">
+                        <p>This is content in the body of our modal</p>
+                    </div>
+                </div>
+            </div>
+        </template>
+        <button id="launch-dialog">Launch dialog</button>
+        <!-- Learn web components ends-->
+        <div id="root"></div>
+        <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+        <script type="text/javascript">
+            class MyComponent extends HTMLElement {
+                connectedCallback() {
+                    this.innerHTML = `<h1>Hello world</h1>`;
+                }
+            }
+            customElements.define("my-component", MyComponent);
+
+            const shadowRoot = document
+                .getElementById("example")
+                .attachShadow({ mode: "open" });
+            shadowRoot.innerHTML = `<style>
+        button {
+          background-color: tomato;
+          color: white;
+        }
+        </style>
+        <button id="button"><slot></slot> tomato</button>`;
+            const books = [
+                { title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
+                { title: "A Farewell to Arms", author: "Ernest Hemingway" },
+                { title: "Catch 22", author: "Joseph Heller" },
+            ];
+            function appendBooks(templateId) {
+                const booksList = document.getElementById("books");
+                const fragment = document.getElementById(templateId);
+                booksList.innerHTML = "";
+                books.forEach((book) => {
+                    const instance = document.importNode(
+                        fragment.content,
+                        true
+                    );
+                    instance.querySelector(".title").innerHTML = book.title;
+                    instance.querySelector(".author").innerHTML = book.author;
+                    booksList.appendChild(instance);
+                });
+            }
+            document
+                .getElementById("templates")
+                .addEventListener("change", (event) =>
+                    appendBooks(event.target.value)
+                );
+            appendBooks("book-template");
+
+            const template = document.getElementById("template");
+            document.body.appendChild(
+                document.importNode(template.content, true)
+            );
+
+            const launchDialogButton = document.getElementById("launch-dialog");
+            launchDialogButton.addEventListener("click", () => {
+                document.querySelector("one-dialog").open = true;
+            });
+        </script>
+    </body>
+</html>
