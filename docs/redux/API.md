@@ -1,3 +1,5 @@
+# Types
+
 -   applyMiddleware returns a store enhancer
 -   A store can be enhanced to have middleware, time travel, persistence
 -   To apply multiple store enhancers, you may use compose().

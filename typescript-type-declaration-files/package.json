@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "@types/lodash": "^4.14.167",
-    "@types/node": "^14.14.20"
-  },
-  "dependencies": {
-    "lodash": "^4.17.20"
-  }
-}

@@ -1,1 +1,0 @@
-let roa: ReadonlyArray<number>;

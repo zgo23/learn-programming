@@ -3,16 +3,6 @@
         {
             "name": "docs",
             "path": "docs"
-        },
-        {
-            "name": "leetcode",
-            "path": "leetcode"
-        },
-        {
-            "path": "trello-clone"
-        },
-        {
-            "path": "ts-react-crash-course"
         }
     ],
     "settings": {}

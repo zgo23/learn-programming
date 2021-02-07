@@ -1,9 +1,0 @@
-{
-    "include": ["a.ts", "src/**/*"],
-    "exclude": ["./**/*/ignore.ts"],
-    "compilerOptions": {
-        "outDir": "dist",
-        "declaration": true,
-        "declarationDir": "dist/types"
-    }
-}
