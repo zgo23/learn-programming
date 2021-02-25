@@ -1,0 +1,4 @@
+-   **URL routing** to provide clean URLs by default.
+-   **IsPost** property in a razor web page
+-   In MVC architecture, incoming requests are handled by controllers.
+-   A **strongly typed view** is intended to render a specific domain type, and if I specify the type I want to work with (GuestResponse in this case), MVC can create some helpful shortcuts to make it easier.

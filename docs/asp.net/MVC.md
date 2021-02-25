@@ -1,0 +1,3 @@
+-   Model Binding mechanism
+-   Anti Forgery Token mechanism
+-   HTML Helper

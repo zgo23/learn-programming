@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj": {}
+  },
+  "projects": {
+    "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj",
+        "projectName": "CalculatorLibrary",
+        "projectPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj",
+        "packagesPath": "/Users/mattzgg/.nuget/packages/",
+        "outputPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mattzgg/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

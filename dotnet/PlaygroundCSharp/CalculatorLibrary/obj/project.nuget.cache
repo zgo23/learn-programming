@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UFyCaNgBbfzU5MH2uxW6luiMWF3Lw92Ui3mk3P7M9zCHMjdww2IYD7hbFDJvFGKGKykNYff6SAd9bV2p4FgL4Q==",
+  "success": true,
+  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj",
+  "expectedPackageFiles": [
+    "/Users/mattzgg/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

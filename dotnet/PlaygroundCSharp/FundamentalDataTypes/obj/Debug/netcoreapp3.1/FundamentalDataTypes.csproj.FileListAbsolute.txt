@@ -1,0 +1,12 @@
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/bin/Debug/netcoreapp3.1/FundamentalDataTypes.deps.json
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/bin/Debug/netcoreapp3.1/FundamentalDataTypes.runtimeconfig.json
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/bin/Debug/netcoreapp3.1/FundamentalDataTypes.runtimeconfig.dev.json
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/bin/Debug/netcoreapp3.1/FundamentalDataTypes.dll
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/bin/Debug/netcoreapp3.1/FundamentalDataTypes.pdb
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.csprojAssemblyReference.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.AssemblyInfoInputs.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.AssemblyInfo.cs
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.csproj.CoreCompileInputs.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.dll
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.pdb
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.genruntimeconfig.cache

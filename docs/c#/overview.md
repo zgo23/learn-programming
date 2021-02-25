@@ -1,0 +1,2 @@
+-   C#, along with the supporting runtime, libraries, and tools known collectively as .NET
+-   Scope: it’s the parts of your code where you can refer to the entity by its name without needing additional qualification.

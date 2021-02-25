@@ -1,3 +1,1 @@
-# References
-
--   [A Better Way to Structure React Projects](https://www.freecodecamp.org/news/a-better-way-to-structure-react-projects/)
+-   [The Best File Structure for Your React Components](https://www.freecodecamp.org/news/best-file-structure-for-react-components/)

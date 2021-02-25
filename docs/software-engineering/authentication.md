@@ -1,0 +1,2 @@
+-   Authentication is a process for verifying the identity of an object, service or person. When you authenticate an object, the goal is to verify that the object is genuine. When you authenticate a service or person, the goal is to verify that the credentials presented are authentic.
+-   In Windows, any user, service, group, or computer that can initiate action is a **security principal**.

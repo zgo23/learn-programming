@@ -3,6 +3,12 @@
         {
             "name": "docs",
             "path": "docs"
+        },
+        {
+            "path": "react/playground-react"
+        },
+        {
+            "path": "dotnet/Calculator"
         }
     ],
     "settings": {}

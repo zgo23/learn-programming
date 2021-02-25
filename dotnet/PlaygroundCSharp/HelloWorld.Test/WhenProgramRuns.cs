@@ -1,13 +1,28 @@
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 
 namespace HelloWorld.Test
 {
     [TestClass]
-    public class UnitTest1
+    public class WhenProgramRuns
     {
-        [TestMethod]
-        public void TestMethod1()
+        private string _consoleOutput;
+
+        [TestInitialize]
+        public void Initialize()
         {
+            var w = new System.IO.StringWriter();
+            Console.SetOut(w);
+
+            Program.Main(new string[0]);
+            _consoleOutput = w.GetStringBuilder().ToString().Trim();
+        }
+
+        [TestMethod]
+        public void SaysHelloWorld()
+        {
+            Assert.AreEqual("Hello, world!", _consoleOutput);
         }
     }
 }
