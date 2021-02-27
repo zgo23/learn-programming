@@ -9,6 +9,9 @@
         },
         {
             "path": "dotnet/Calculator"
+        },
+        {
+            "path": "react/trello-clone"
         }
     ],
     "settings": {}
