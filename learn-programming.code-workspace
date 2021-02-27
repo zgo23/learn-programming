@@ -12,6 +12,9 @@
         },
         {
             "path": "react/trello-clone"
+        },
+        {
+            "path": "ts/my-awesome-greeter"
         }
     ],
     "settings": {}
