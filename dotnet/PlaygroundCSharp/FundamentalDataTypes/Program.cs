@@ -1,5 +1,9 @@
 ﻿using System;
 using FundamentalDataTypes.VirtualExample;
+using FundamentalDataTypes.DelegateExamples;
+using FundamentalDataTypes.EventsAndDelegates;
+using FundamentalDataTypes.LinqExamples;
+using FundamentalDataTypes.ExtensionMethod1;
 
 namespace FundamentalDataTypes
 {
@@ -9,7 +13,17 @@ namespace FundamentalDataTypes
         {
             //AnalyzeFloat();
             //LearnTuple();
-            LearnVirtualKeyword1();
+            //LearnVirtualKeyword1();
+            //DelegatesSample.Run();
+            //ArrayOfDelegates.Run();
+            //AnonymousMethods.Run();
+            //MulticastDelegateExample.Run();
+            //MulticastDelegateWithExceptionThrown.Run();
+            //EventsExample.Run();
+            //EventsExample2.Run();
+            //MainProgram.Run();
+            //LinkBasicConcepts.Run();
+            XXMain.Run();
         }
 
         static void AnalyzeFloat()

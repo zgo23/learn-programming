@@ -1,23 +1,21 @@
 ﻿<Properties StartupConfiguration="{024FB8E0-9FB2-485C-8FEC-6B237789F317}|Default">
   <MonoDevelop.Ide.ItemProperties.FundamentalDataTypes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FundamentalDataTypes/VirtualExample/Vehicle.cs">
+  <MonoDevelop.Ide.ItemProperties.ClassLibExtMethod FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FundamentalDataTypes/Program.cs">
     <Files>
-      <File FileName="Calculator/Program.cs" Line="12" Column="36" />
-      <File FileName="BindingExtensionMethodsAtCompileTime/Program.cs" Line="1" Column="1" />
-      <File FileName="HelloWorld/Program.cs" Line="9" Column="40" />
-      <File FileName="HelloWorld.Test/UnitTest1.cs" Line="29" Column="1" />
-      <File FileName="FundamentalDataTypes/Program.cs" Line="30" Column="19" />
-      <File FileName="FundamentalDataTypes/VirtualExample/Vehicle.cs" Line="1" Column="1" />
+      <File FileName="ClassLibExtMethod/Class1.cs" Line="14" Column="38" />
+      <File FileName="FundamentalDataTypes/ExtensionMethod1/XX.cs" Line="12" Column="10" />
+      <File FileName="FundamentalDataTypes/Program.cs" Line="6" Column="28" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PlaygroundCSharp" expanded="True">
+            <Node name="ClassLibExtMethod" expanded="True" />
             <Node name="FundamentalDataTypes" expanded="True">
-              <Node name="VirtualExample" expanded="True">
-                <Node name="Vehicle.cs" selected="True" />
-              </Node>
+              <Node name="ExtensionMethod1" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>

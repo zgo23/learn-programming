@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld.Test", "HelloWor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FundamentalDataTypes", "FundamentalDataTypes\FundamentalDataTypes.csproj", "{024FB8E0-9FB2-485C-8FEC-6B237789F317}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibExtMethod", "ClassLibExtMethod\ClassLibExtMethod.csproj", "{A616680E-1972-4AFA-A0A0-C06C5E6F04DC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{024FB8E0-9FB2-485C-8FEC-6B237789F317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{024FB8E0-9FB2-485C-8FEC-6B237789F317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{024FB8E0-9FB2-485C-8FEC-6B237789F317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A616680E-1972-4AFA-A0A0-C06C5E6F04DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A616680E-1972-4AFA-A0A0-C06C5E6F04DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A616680E-1972-4AFA-A0A0-C06C5E6F04DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A616680E-1972-4AFA-A0A0-C06C5E6F04DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

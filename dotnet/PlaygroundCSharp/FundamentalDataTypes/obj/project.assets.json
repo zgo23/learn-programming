@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ClassLibExtMethod/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ClassLibExtMethod.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassLibExtMethod.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ClassLibExtMethod/1.0.0": {
+      "type": "project",
+      "path": "../ClassLibExtMethod/ClassLibExtMethod.csproj",
+      "msbuildProject": "../ClassLibExtMethod/ClassLibExtMethod.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ClassLibExtMethod >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/mattzgg/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/ClassLibExtMethod.csproj": {
+              "projectPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/ClassLibExtMethod.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

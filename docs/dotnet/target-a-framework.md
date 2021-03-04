@@ -1,0 +1,7 @@
+The frameworks are designed to be backwards-compatible; if you have a program written in .NET 2.0, you can run it in the 4.0 runtime, because none of the frameworks ever remove functionality that a prior version had (which is why we still have the non-generic collections like ArrayList, even though they're deprecated in favor of generic collections). However, the reverse is not necessarily true; a 4.0 app is not guaranteed to run in 2.0, because it MAY take advantage of new features of the new runtime that are not available in prior versions. In any case, if you want your app to attempt to run on runtime versions it does not specifically target, you must specify that in the app.config using SupportedRuntime elements.
+
+To answer your specific question, you can do what you want with the following basic procedure:
+
+Develop your app to target the EARLIEST framework version that you want to support. This will disable access to newer features of newer runtimes (like Linq in 3.5, and dynamic typing in 4.0) ensuring your app will not require any feature that cannot be provided by any of the supported runtimes.
+
+Specify the frameworks that are acceptable to your application by using the SupportedRuntime element in your app.config file. This will tell the native code that initializes the runtime in which your app will run that if it can't find the targeted version, any of the others are acceptable. I believe the behavior is to look for the targeted framework first, and if not available it should use the newest supported runtime.

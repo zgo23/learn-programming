@@ -107,3 +107,14 @@ public IEnumerable<int> GetSingleDigitNumbers()
 -   the integration of query capabilities directly into the C# language.
 -   With LINQ, a query is a first-class language construct, just like classes, methods, events.
 -   A query is not executed until you iterate over the query variable, for example, in a foreach statement.
+
+# Pattern
+
+-   A pattern describes one or more criteria that a value can be tested against.
+-   constant pattern, e.g. case in switch
+-   tuple patten, e.g. (0,0)
+-   type pattern
+-   case (0, int y): a positional pattern with a constant pattern in the first position and a type pattern in the second.
+-   discard pattern
+-   property pattern
+-   is pattern, `bool isPoint = value is (int x, int y);`

@@ -10,3 +10,6 @@
 /Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.dll
 /Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.pdb
 /Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.genruntimeconfig.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/bin/Debug/netcoreapp3.1/ClassLibExtMethod.dll
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/bin/Debug/netcoreapp3.1/ClassLibExtMethod.pdb
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/Debug/netcoreapp3.1/FundamentalDataTypes.csproj.CopyComplete

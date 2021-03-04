@@ -7,5 +7,12 @@
 
   <ItemGroup>
     <Folder Include="VirtualExample\" />
+    <Folder Include="DelegateExamples\" />
+    <Folder Include="EventsAndDelegates\" />
+    <Folder Include="LinqExamples\" />
+    <Folder Include="ExtensionMethod1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibExtMethod\ClassLibExtMethod.csproj" />
   </ItemGroup>
 </Project>

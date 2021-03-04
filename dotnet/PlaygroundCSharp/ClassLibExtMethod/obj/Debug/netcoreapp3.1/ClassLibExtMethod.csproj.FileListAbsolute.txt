@@ -1,0 +1,9 @@
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/bin/Debug/netcoreapp3.1/ClassLibExtMethod.deps.json
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/bin/Debug/netcoreapp3.1/ClassLibExtMethod.dll
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/bin/Debug/netcoreapp3.1/ClassLibExtMethod.pdb
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/obj/Debug/netcoreapp3.1/ClassLibExtMethod.csprojAssemblyReference.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/obj/Debug/netcoreapp3.1/ClassLibExtMethod.AssemblyInfoInputs.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/obj/Debug/netcoreapp3.1/ClassLibExtMethod.AssemblyInfo.cs
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/obj/Debug/netcoreapp3.1/ClassLibExtMethod.csproj.CoreCompileInputs.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/obj/Debug/netcoreapp3.1/ClassLibExtMethod.dll
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/obj/Debug/netcoreapp3.1/ClassLibExtMethod.pdb
