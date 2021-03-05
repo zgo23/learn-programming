@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace FundamentalDataTypes.LinqExamples
 {
-    public class LinkBasicConcepts
+    public class LinqBasicConcepts
     {
         public static void Run()
         {

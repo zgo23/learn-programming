@@ -23,7 +23,8 @@ namespace FundamentalDataTypes
             //EventsExample2.Run();
             //MainProgram.Run();
             //LinkBasicConcepts.Run();
-            XXMain.Run();
+            //XXMain.Run();
+            LinqExp.Run();
         }
 
         static void AnalyzeFloat()
