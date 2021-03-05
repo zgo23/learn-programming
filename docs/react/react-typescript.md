@@ -20,3 +20,10 @@
 # State Management with Redux
 
 # GraphQL
+
+# Types
+
+-   React.CSSProperties
+-   JSX.Element
+-   React.FC / React.FunctionalComponent
+-   React.PropsWithChildren<T>

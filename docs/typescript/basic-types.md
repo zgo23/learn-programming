@@ -6,6 +6,7 @@
 -   In TypeScript everything needs to have a type at compile time, and any is the default type when you (the programmer) and TypeScript (the typechecker) can’t figure out what type something is.
 -   any is the set of all values, and you can do anything with any.
 -   Avoid any like fire, and use it only as a very, very last resort.
+-   `keyof any` represents the type of any value that can be used as an index to an object. Currently you can use string or number or symbol to index into an object.
 
 # unknown
 
