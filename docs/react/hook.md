@@ -1,2 +1,0 @@
--   we cannot access the updated state of a functional component until the next re-render.
--

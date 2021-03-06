@@ -1,0 +1,1 @@
+-   [React Event Handlers with TypeScript](https://www.carlrippon.com/React-event-handlers-with-typescript/)
