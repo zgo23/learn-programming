@@ -6,22 +6,26 @@ interface SetState {
     (nextValue: string): void;
 }
 
-let value: string;
+let values: string[] = [];
+let currentHook = 0;
 
 function useState(initialState: string): [string, SetState] {
-    if (typeof value === "undefined") {
-        value = initialState;
+    if (typeof values[currentHook] === "undefined") {
+        values[currentHook] = initialState;
     }
 
+    let hookIndex = currentHook;
     function setState(nextValue: string) {
-        value = nextValue;
+        values[hookIndex] = nextValue;
         renderApp();
     }
 
-    return [value, setState];
+    return [values[currentHook++], setState];
 }
 
 function MyName() {
+    currentHook = 0;
+
     const [name, setName] = useState("");
     const [lastName, setLastName] = useState("");
 
