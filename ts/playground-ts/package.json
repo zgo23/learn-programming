@@ -13,6 +13,6 @@
     "scripts": {
         "clean": "rimraf dist",
         "compile": "yarn clean & tsc",
-        "run:validators": "ts-node src/namespaces/Validators.ts"
+        "run:TestValidation": "ts-node src/namespaces/TestValidation.ts"
     }
 }

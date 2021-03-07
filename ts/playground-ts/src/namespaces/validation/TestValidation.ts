@@ -1,4 +1,6 @@
-import Validation from "./Validation";
+/// <reference path="Validation.ts" />
+/// <reference path="ZipCodeValidator.ts" />
+/// <reference path="LettersOnlyValidator.ts" />
 
 // Some samples to try
 let strings = ["Hello", "98052", "101"];
