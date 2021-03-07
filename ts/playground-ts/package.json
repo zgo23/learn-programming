@@ -6,10 +6,13 @@
     "private": true,
     "devDependencies": {
         "eslint": "^7.21.0",
+        "rimraf": "^3.0.2",
         "ts-node": "^9.1.1",
         "typescript": "^4.2.3"
     },
     "scripts": {
-        "Run:Validators": "ts-node src/namespaces/Validators.ts"
+        "clean": "rimraf dist",
+        "compile": "yarn clean & tsc",
+        "run:validators": "ts-node src/namespaces/Validators.ts"
     }
 }
