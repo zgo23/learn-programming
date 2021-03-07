@@ -9,6 +9,9 @@
         },
         {
             "path": "react/trello-clone"
+        },
+        {
+            "path": "ts/playground-ts"
         }
     ],
     "settings": {}
