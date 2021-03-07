@@ -3,3 +3,8 @@
 -   Since Namespaces do not use a platform-dependent module system and they compile to vanilla JavaScript that we are used to since the stone age, they are called **internal modules**.
 -   Like a module, you can also export types from a namespace.
 -   Since a namespace is also a value, you can also export a namespace from within a namespace. These are called nested namespaces.
+-   Because most JavaScript libraries expose only a few top-level objects, namespaces are a good way to represent them.
+-   Namespaces are a TypeScript-specific way to organize code.
+-   Namespaces are simply named JavaScript objects in the global namespace.
+-   Unlike modules, namespaces can span multiple files, and can be concatenated using **--outFile**.
+-   the general idea of namespacing is to provide logical grouping of constructs and to prevent name collisions.
