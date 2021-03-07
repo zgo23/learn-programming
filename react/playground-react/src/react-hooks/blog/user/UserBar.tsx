@@ -17,5 +17,3 @@ export default function UserBar() {
         );
     }
 }
-
-export type SetUser = React.Dispatch<React.SetStateAction<string>>;

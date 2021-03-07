@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import type { ChangeEvent } from "react";
-import type { SetUser } from "./UserBar";
+import type { SetUser } from "../shared/Types";
 
-export default function Login({ setUser }) {
+interface LoginProps {
+    setUser: SetUser;
+}
+
+export default function Login({ setUser }: LoginProps) {
     const [username, setUsername] = useState("");
 
     function handleUsername(evt: ChangeEvent<HTMLInputElement>) {
