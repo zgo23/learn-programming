@@ -4,7 +4,8 @@ import React from "react";
 // import MyName from "./react-hooks/basics/MyName";
 // import MyName from "./react-hooks/basics/MyNameUseHook";
 // import MyName from "./react-hooks/basics/MyNameUseSimulatedHook";
-import { BlogApp } from "./react-hooks/blog";
+// import { BlogApp } from "./react-hooks/blog";
+import ErrorBoundaryExample from "./reactjs-org-docs/ErrorBoundaryExample";
 import "./App.css";
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
             {/* <StyledExample />
             <TtlExample /> */}
             {/* <MyName /> */}
-            <BlogApp />
+            {/* <BlogApp /> */}
+            <ErrorBoundaryExample />
         </div>
     );
 }
