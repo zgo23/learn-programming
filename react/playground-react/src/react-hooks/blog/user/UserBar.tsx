@@ -2,21 +2,21 @@ import React from "react";
 import Login from "./Login";
 import Logout from "./Logout";
 import Register from "./Register";
-import type { SetUser } from "../shared/Types";
+import type { DispatchUser } from "../shared/Types";
 
 interface UserBarProps {
     user: string;
-    setUser: SetUser;
+    dispatch: DispatchUser;
 }
 
-export default function UserBar({ user, setUser }: UserBarProps) {
+export default function UserBar({ user, dispatch }: UserBarProps) {
     if (user) {
-        return <Logout user={user} setUser={setUser} />;
+        return <Logout user={user} dispatch={dispatch} />;
     } else {
         return (
             <React.Fragment>
-                <Login setUser={setUser} />
-                <Register setUser={setUser} />
+                <Login dispatch={dispatch} />
+                <Register dispatch={dispatch} />
             </React.Fragment>
         );
     }

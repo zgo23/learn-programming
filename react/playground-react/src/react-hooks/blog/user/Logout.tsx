@@ -1,17 +1,19 @@
 import React from "react";
-import type { SetUser } from "../shared/Types";
+import type { DispatchUser } from "../shared/Types";
 
 interface LogoutProps {
     user: string;
-    setUser: SetUser;
+    dispatch: DispatchUser;
 }
 
-export default function Logout({ user, setUser }: LogoutProps) {
+export default function Logout({ user, dispatch }: LogoutProps) {
     return (
         <form
             onSubmit={(e) => {
                 e.preventDefault();
-                setUser("");
+                dispatch({
+                    type: "LOGOUT",
+                });
             }}
         >
             Logged in as: <b>{user}</b>

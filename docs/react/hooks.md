@@ -29,3 +29,9 @@
         -   Post (Creating, viewing, listing)
 -   by routes
 -   by the kind of code
+
+# The Reducer Hook
+
+-   we should use a Reducer Hook instead of multiple State Hooks, because it is harder to maintain **synchronicity** between multiple State Hooks that depend on each other.
+-   Throwing an error in the default case is different to what is best practice with Redux reducers, where we would simply return the current state in the default case. Because React Reducer Hooks do not store all state in one object, we are only going to handle certain actions for certain state objects, so we can throw an error for unknown actions.
+-   If there are multiple setState functions that are always called at the same time, it is a good hint that they should be grouped together in a single Reducer Hook.

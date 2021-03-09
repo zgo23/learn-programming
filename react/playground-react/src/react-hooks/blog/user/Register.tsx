@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import type { ChangeEvent } from "react";
-import type { SetUser } from "../shared/Types";
+import type { DispatchUser } from "../shared/Types";
 
 interface RegisterProps {
-    setUser: SetUser;
+    dispatch: DispatchUser;
 }
 
-export default function Register({ setUser }: RegisterProps) {
+export default function Register({ dispatch }: RegisterProps) {
     const [username, setUsername] = useState("");
     const [password, setPassword] = useState("");
     const [passwordRepeat, setPasswordRepeat] = useState("");
@@ -27,7 +27,12 @@ export default function Register({ setUser }: RegisterProps) {
         <form
             onSubmit={(e) => {
                 e.preventDefault();
-                setUser(username);
+                dispatch({
+                    type: "REGISTER",
+                    username,
+                    password,
+                    passwordRepeat,
+                });
             }}
         >
             <label htmlFor="register-username">Username:</label>

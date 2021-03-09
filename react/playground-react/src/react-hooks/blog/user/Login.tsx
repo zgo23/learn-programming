@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import type { ChangeEvent } from "react";
-import type { SetUser } from "../shared/Types";
+import type { DispatchUser } from "../shared/Types";
 
 interface LoginProps {
-    setUser: SetUser;
+    dispatch: DispatchUser;
 }
 
-export default function Login({ setUser }: LoginProps) {
+export default function Login({ dispatch }: LoginProps) {
     const [username, setUsername] = useState("");
 
     function handleUsername(evt: ChangeEvent<HTMLInputElement>) {
@@ -17,7 +17,11 @@ export default function Login({ setUser }: LoginProps) {
         <form
             onSubmit={(e) => {
                 e.preventDefault();
-                setUser(username);
+                dispatch({
+                    type: "LOGIN",
+                    username,
+                    password: "",
+                });
             }}
         >
             <label htmlFor="login-username">Username:</label>
