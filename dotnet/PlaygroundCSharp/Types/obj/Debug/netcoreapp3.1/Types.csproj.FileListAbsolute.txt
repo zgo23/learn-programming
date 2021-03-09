@@ -1,0 +1,12 @@
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/bin/Debug/netcoreapp3.1/Types.deps.json
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/bin/Debug/netcoreapp3.1/Types.runtimeconfig.json
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/bin/Debug/netcoreapp3.1/Types.runtimeconfig.dev.json
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/bin/Debug/netcoreapp3.1/Types.dll
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/bin/Debug/netcoreapp3.1/Types.pdb
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/obj/Debug/netcoreapp3.1/Types.csprojAssemblyReference.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/obj/Debug/netcoreapp3.1/Types.AssemblyInfoInputs.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/obj/Debug/netcoreapp3.1/Types.AssemblyInfo.cs
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/obj/Debug/netcoreapp3.1/Types.csproj.CoreCompileInputs.cache
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/obj/Debug/netcoreapp3.1/Types.dll
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/obj/Debug/netcoreapp3.1/Types.pdb
+/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/obj/Debug/netcoreapp3.1/Types.genruntimeconfig.cache
