@@ -1,6 +1,8 @@
 import type { Dispatch, ReducerAction } from "react";
 
 /* Types for the user feature */
+type UserState = string;
+
 interface LoginAction {
     type: "LOGIN";
     username: string;
@@ -21,12 +23,12 @@ interface LogoutAction {
 export type UserAction = LoginAction | RegisterAction | LogoutAction;
 
 export interface UserReducer {
-    (state: string, action: UserAction): string;
+    (state: UserState, action: UserAction): string;
 }
 
-export type DispatchUser = Dispatch<ReducerAction<UserReducer>>;
+/* Types for the posts feature */
+type PostsState = Post[];
 
-/* Types for the post feature */
 export interface Post {
     title: string;
     content: string;
@@ -43,7 +45,16 @@ interface CreatePostAction {
 export type PostsAction = CreatePostAction;
 
 export interface PostsReducer {
-    (posts: Post[], action: PostsAction): Post[];
+    (posts: PostsState, action: PostsAction): Post[];
 }
 
-export type DispatchPosts = Dispatch<ReducerAction<PostsReducer>>;
+/* Types for application */
+export interface AppState {
+    user: UserState;
+    posts: PostsState;
+}
+export type AppAction = UserAction | PostsAction;
+export interface AppReducer {
+    (state: AppState, action: AppAction): AppState;
+}
+export type AppDispatch = Dispatch<ReducerAction<AppReducer>>;

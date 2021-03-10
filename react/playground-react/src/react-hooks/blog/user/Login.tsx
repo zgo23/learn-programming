@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import type { ChangeEvent } from "react";
-import type { DispatchUser } from "../shared/Types";
+import type { AppDispatch } from "../shared/Types";
 
 interface LoginProps {
-    dispatch: DispatchUser;
+    dispatch: AppDispatch;
 }
 
 export default function Login({ dispatch }: LoginProps) {

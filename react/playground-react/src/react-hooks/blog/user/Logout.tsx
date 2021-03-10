@@ -1,9 +1,9 @@
 import React from "react";
-import type { DispatchUser } from "../shared/Types";
+import type { AppDispatch } from "../shared/Types";
 
 interface LogoutProps {
     user: string;
-    dispatch: DispatchUser;
+    dispatch: AppDispatch;
 }
 
 export default function Logout({ user, dispatch }: LogoutProps) {

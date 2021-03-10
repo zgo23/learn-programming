@@ -4,7 +4,8 @@ import PostList from "./post/PostList";
 import CreatePost from "./post/CreatePost";
 import UserBar from "./user/UserBar";
 
-import type { UserReducer, Post, PostsReducer } from "./shared/Types";
+import type { Post } from "./shared/Types";
+import appReducer from "./reducers";
 
 const defaultPosts: Post[] = [
     {
@@ -19,49 +20,18 @@ const defaultPosts: Post[] = [
     },
 ];
 
-/* Replace the user global state with reducer hook*/
-
-const userReducer: UserReducer = (state, action) => {
-    switch (action.type) {
-        case "LOGIN":
-        case "REGISTER":
-            return action.username;
-        case "LOGOUT":
-            return "";
-        default:
-            throw new Error();
-    }
-};
-
-const postsReducer: PostsReducer = (state, action) => {
-    switch (action.type) {
-        case "CREATE_POST":
-            const { title, content, author } = action;
-            const newPost = {
-                title,
-                content,
-                author,
-            };
-            return [newPost, ...state];
-        default:
-            throw new Error();
-    }
-};
-
 export default function BlogApp() {
-    const [user, dispatchUser] = useReducer(userReducer, "");
-    const [posts, dispatchPosts] = useReducer(postsReducer, defaultPosts);
+    const [{ user, posts }, dispatch] = useReducer(appReducer, {
+        user: "",
+        posts: defaultPosts,
+    });
 
     return (
         <div style={{ padding: 8 }}>
-            <UserBar user={user} dispatch={dispatchUser} />
+            <UserBar user={user} dispatch={dispatch} />
             <br />
             {user && (
-                <CreatePost
-                    user={user}
-                    posts={posts}
-                    dispatch={dispatchPosts}
-                />
+                <CreatePost user={user} posts={posts} dispatch={dispatch} />
             )}
             <br />
             <hr />

@@ -2,11 +2,11 @@ import React from "react";
 import Login from "./Login";
 import Logout from "./Logout";
 import Register from "./Register";
-import type { DispatchUser } from "../shared/Types";
+import type { AppDispatch } from "../shared/Types";
 
 interface UserBarProps {
     user: string;
-    dispatch: DispatchUser;
+    dispatch: AppDispatch;
 }
 
 export default function UserBar({ user, dispatch }: UserBarProps) {

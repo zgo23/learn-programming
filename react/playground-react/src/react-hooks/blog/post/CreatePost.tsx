@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import type { ChangeEvent } from "react";
-import type { Post, DispatchPosts } from "../shared/Types";
+import type { Post, AppDispatch } from "../shared/Types";
 
 interface CreatePostProps {
     user: string;
     posts: Post[];
-    dispatch: DispatchPosts;
+    dispatch: AppDispatch;
 }
 
 export default function CreatePost({ user, posts, dispatch }: CreatePostProps) {
