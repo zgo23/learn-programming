@@ -40,10 +40,10 @@ interface CreatePostAction {
     author: string;
 }
 
-export type PostAction = CreatePostAction;
+export type PostsAction = CreatePostAction;
 
-export interface PostReducer {
-    (posts: Post[], action: PostAction): Post[];
+export interface PostsReducer {
+    (posts: Post[], action: PostsAction): Post[];
 }
 
-export type DispatchPost = Dispatch<ReducerAction<PostReducer>>;
+export type DispatchPosts = Dispatch<ReducerAction<PostsReducer>>;

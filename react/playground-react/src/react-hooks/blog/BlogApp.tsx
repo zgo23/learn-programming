@@ -1,10 +1,10 @@
-import React, { useState, useReducer } from "react";
+import React, { useReducer } from "react";
 
 import PostList from "./post/PostList";
 import CreatePost from "./post/CreatePost";
 import UserBar from "./user/UserBar";
 
-import type { UserReducer, Post, PostReducer } from "./shared/Types";
+import type { UserReducer, Post, PostsReducer } from "./shared/Types";
 
 const defaultPosts: Post[] = [
     {
@@ -33,7 +33,7 @@ const userReducer: UserReducer = (state, action) => {
     }
 };
 
-const postReducer: PostReducer = (state, action) => {
+const postsReducer: PostsReducer = (state, action) => {
     switch (action.type) {
         case "CREATE_POST":
             const { title, content, author } = action;
@@ -50,14 +50,18 @@ const postReducer: PostReducer = (state, action) => {
 
 export default function BlogApp() {
     const [user, dispatchUser] = useReducer(userReducer, "");
-    const [posts, dispatchPost] = useReducer(postReducer, defaultPosts);
+    const [posts, dispatchPosts] = useReducer(postsReducer, defaultPosts);
 
     return (
         <div style={{ padding: 8 }}>
             <UserBar user={user} dispatch={dispatchUser} />
             <br />
             {user && (
-                <CreatePost user={user} posts={posts} dispatch={dispatchPost} />
+                <CreatePost
+                    user={user}
+                    posts={posts}
+                    dispatch={dispatchPosts}
+                />
             )}
             <br />
             <hr />
