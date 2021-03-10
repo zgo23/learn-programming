@@ -1,13 +1,6 @@
 import type { Dispatch, ReducerAction } from "react";
 
-export interface Post {
-    title: string;
-    content: string;
-    author: string;
-}
-
-export type SetPosts = React.Dispatch<React.SetStateAction<Post[]>>;
-
+/* Types for the user feature */
 interface LoginAction {
     type: "LOGIN";
     username: string;
@@ -32,3 +25,23 @@ export interface UserReducer {
 }
 
 export type DispatchUser = Dispatch<ReducerAction<UserReducer>>;
+
+/* Types for the post feature */
+export interface Post {
+    title: string;
+    content: string;
+    author: string;
+}
+
+interface CreatePostAction {
+    type: "CREATE_POST";
+    post: Post;
+}
+
+export type PostAction = CreatePostAction;
+
+export interface PostReducer {
+    (posts: Post[], action: PostAction): Post[];
+}
+
+export type DispatchPost = Dispatch<ReducerAction<PostReducer>>;

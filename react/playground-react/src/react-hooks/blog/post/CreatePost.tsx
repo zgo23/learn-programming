@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import type { ChangeEvent } from "react";
-import type { Post, SetPosts } from "../shared/Types";
+import type { Post, DispatchPost } from "../shared/Types";
 
 interface CreatePostProps {
     user: string;
     posts: Post[];
-    setPosts: SetPosts;
+    dispatch: DispatchPost;
 }
 
-export default function CreatePost({ user, posts, setPosts }: CreatePostProps) {
+export default function CreatePost({ user, posts, dispatch }: CreatePostProps) {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
 
@@ -26,7 +26,10 @@ export default function CreatePost({ user, posts, setPosts }: CreatePostProps) {
             content,
             author: user,
         };
-        setPosts([newPost, ...posts]);
+        dispatch({
+            type: "CREATE_POST",
+            post: newPost,
+        });
     }
 
     return (
