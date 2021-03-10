@@ -35,7 +35,9 @@ export interface Post {
 
 interface CreatePostAction {
     type: "CREATE_POST";
-    post: Post;
+    title: string;
+    content: string;
+    author: string;
 }
 
 export type PostAction = CreatePostAction;

@@ -36,7 +36,13 @@ const userReducer: UserReducer = (state, action) => {
 const postReducer: PostReducer = (state, action) => {
     switch (action.type) {
         case "CREATE_POST":
-            return [action.post, ...state];
+            const { title, content, author } = action;
+            const newPost = {
+                title,
+                content,
+                author,
+            };
+            return [newPost, ...state];
         default:
             throw new Error();
     }

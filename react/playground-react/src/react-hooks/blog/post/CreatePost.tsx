@@ -21,14 +21,11 @@ export default function CreatePost({ user, posts, dispatch }: CreatePostProps) {
     }
 
     function handleCreate() {
-        const newPost: Post = {
+        dispatch({
+            type: "CREATE_POST",
             title,
             content,
             author: user,
-        };
-        dispatch({
-            type: "CREATE_POST",
-            post: newPost,
         });
     }
 
