@@ -1,28 +1,19 @@
 ﻿<Properties StartupConfiguration="{05C935A1-B883-4D37-A71D-53936723191D}|Default">
   <MonoDevelop.Ide.ItemProperties.FundamentalDataTypes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Types/Structs/PointExample.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Types/Members/MethodExample.cs">
     <Files>
-      <File FileName="ClassLibExtMethod/Class1.cs" Line="14" Column="38" />
-      <File FileName="FundamentalDataTypes/ExtensionMethod1/XX.cs" />
-      <File FileName="FundamentalDataTypes/Program.cs" />
-      <File FileName="Types/Program.cs" Line="11" Column="49" />
-      <File FileName="HelloWorld.Test/WhenProgramRuns.cs" Line="10" Column="38" />
-      <File FileName="Calculator/Program.cs" Line="1" Column="1" />
-      <File FileName="Types/Nullability/NullableT.cs" Line="14" Column="1" />
-      <File FileName="Types/Nullability/NullableAnnotationContextExample.cs" Line="8" Column="1" />
-      <File FileName="Types/Nullability/NullableWarningContextExample.cs" Line="25" Column="1" />
-      <File FileName="Types/Nullability/ArraysAreAPitfall.cs" Line="3" Column="1" />
-      <File FileName="Types/Structs/Point.cs" Line="35" Column="26" />
-      <File FileName="Types/Structs/PointExample.cs" Line="1" Column="1" />
+      <File FileName="Types/Members/DeconstructorExample.cs" Line="52" Column="18" />
+      <File FileName="Types/Program.cs" Line="15" Column="40" />
+      <File FileName="Types/Members/MethodExample.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PlaygroundCSharp" expanded="True">
             <Node name="Types" expanded="True">
-              <Node name="Structs" expanded="True">
-                <Node name="PointExample.cs" selected="True" />
+              <Node name="Members" expanded="True">
+                <Node name="MethodExample.cs" selected="True" />
               </Node>
             </Node>
           </Node>

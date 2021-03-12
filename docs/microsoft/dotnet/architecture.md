@@ -1,0 +1,2 @@
+-   [Understanding .Net Core vs .Net Framework vs .Net Standard](https://medium.com/@pritam.ajmire/understanding-net-core-vs-net-framework-vs-net-standard-66fdeb308bf7)
+-   ASP.NET Core supports the Open Web Interface for . NET (OWIN). OWIN allows web apps to be decoupled from web servers. It defines a standard way for middleware to be used in a pipeline to handle requests and associated responses.

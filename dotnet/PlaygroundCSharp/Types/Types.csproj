@@ -8,5 +8,6 @@
   <ItemGroup>
     <Folder Include="Nullability\" />
     <Folder Include="Structs\" />
+    <Folder Include="Members\" />
   </ItemGroup>
 </Project>

@@ -1,0 +1,3 @@
+-   [ASP.NET Web API](https://docs.microsoft.com/en-us/aspnet/web-api/)
+-   ASP.NET Web API can automatically serialize your model to JSON, XML, or some other format, and then write the serialized data into the body of the HTTP response message.
+-   the client can indicate which format it wants by setting the Accept header in the HTTP request message.

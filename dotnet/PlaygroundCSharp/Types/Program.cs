@@ -1,6 +1,7 @@
 ﻿using System;
 using Types.Nullability;
 using Types.Structs;
+using Types.Members;
 
 namespace Types
 {
@@ -10,7 +11,9 @@ namespace Types
         {
             //NullableTExample.Run();
             //NullableWarningContextExample.Run();
-            PointExample.Run();
+            //PointExample.Run();
+            //DeconstructorExample.Run();
+            MethodExample.Run();
         }
     }
 }
