@@ -3,6 +3,9 @@
         {
             "name": "docs",
             "path": "docs"
+        },
+        {
+            "path": "backend/playground-node"
         }
     ],
     "settings": {}
