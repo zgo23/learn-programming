@@ -1,0 +1,35 @@
+-   Defensive Copy
+-   Anonymous Function
+-   Anonymous Type
+-   Local Function: methods inside other methods
+-   Using Declaration: `using var r = new StreamReader(stream, Encoding.UTF8, true, 8192, false);`
+-   The **params** keyword: `public static string Format(string format, params object[] args)`
+-   Contextual Keyword: the **value** in a property setter
+-   Automatically Implemented Property / Auto-properties
+-   Indexer: a special kind of property
+-   Multidimentional Indexer
+-   Null-conditional operator
+-   Null conditional index access: `objectWithIndexer?[2]`
+-   Object Initializer Syntax
+-   Expression Tree
+-   Explicit Implementation
+-   Default Interface Implementation
+-   Unspeakable name
+-   Partial Method
+-   Type Parameter: placeholders that let you plug in different types at compile time.
+-   Covariance
+-   Contravariance
+-   Arity: the number of parameters
+-   Generic type parameter constraint:
+    -   a type constraint: `public class GenericComparer<T> : IComparer<T> where T : IComparable<T>`
+    -   a reference type constraint `public class Bar<T> where T : class`
+    -   a value type constraint: `public class Quux<T> where T : struct`
+    -   notnull
+    -   unmanaged
+    -   new(): `public static class Deferred<T> where T : new()`
+-   Lazy<T>
+-   Zero-like values / Default value: `default(int) == 0`
+-   Type Inference
+-   TupleElementNames Attribute
+-   ValueTuple family and Tuple family(Tuple<T>, Tuple<T1, T2>)
+-
