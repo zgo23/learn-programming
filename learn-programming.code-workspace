@@ -3,15 +3,6 @@
         {
             "name": "docs",
             "path": "docs"
-        },
-        {
-            "path": "react/playground-react"
-        },
-        {
-            "path": "react/trello-clone"
-        },
-        {
-            "path": "ts/playground-ts"
         }
     ],
     "settings": {}
