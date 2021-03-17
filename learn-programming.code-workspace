@@ -6,6 +6,12 @@
         },
         {
             "path": "backend/playground-node"
+        },
+        {
+            "path": "foundation/ts-monorepo"
+        },
+        {
+            "path": "foundation/playground-ts"
         }
     ],
     "settings": {}
