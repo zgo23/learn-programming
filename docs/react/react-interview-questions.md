@@ -1,0 +1,12 @@
+-   A **controlled input** accepts its current value as a prop, as well as a callback to change that value. It’s a “React way”
+    -   data (state) and UI (inputs) are always in sync
+-   An **uncontrolled input** stores its own state internally, using DOM API.
+    -   integrate React and non-React code
+-   React Event System
+    -   capturing and bubbling
+        -   target and currentTarget
+        -   with bubbling, the event is first captured and handled by the innermost element and then propagated to outer elements.
+        -   With capturing, the event is first captured by the outermost element and propagated to the inner elements.
+        -   Event Delegation Pattern
+            -   a method of attaching event handlers not to the elements from which you actually want to handle events, but to a higher-level element.
+            -   the main point is in centralizing decision-making, thereby reducing the number of decision-making points.

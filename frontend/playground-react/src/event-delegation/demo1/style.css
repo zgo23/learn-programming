@@ -1,0 +1,8 @@
+h1,
+p {
+    font-family: Lato;
+}
+
+ul > li {
+    cursor: pointer;
+}

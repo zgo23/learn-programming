@@ -8,8 +8,9 @@ import React from "react";
 // import ErrorBoundaryExample from "./reactjs-org-docs/ErrorBoundaryExample";
 // import HowContextsWork from "./react-hooks/how-contexts-work/HowContextsWorkApp";
 // import ProblematicKeyDemo from "./reconciliation/element-key-prop/ProblematicKeyDemo";
-import CorrectKeyDemo from "./reconciliation/element-key-prop/CorrectKeyDemo";
+// import CorrectKeyDemo from "./reconciliation/element-key-prop/CorrectKeyDemo";
 // import A from "./reconciliation/abc/AbcDemo";
+import EventDelegationDemo1 from "./event-delegation/demo1/index";
 import "./App.css";
 
 function App() {
@@ -22,8 +23,9 @@ function App() {
             {/* <ErrorBoundaryExample /> */}
             {/* <HowContextsWork /> */}
             {/* <ProblematicKeyDemo /> */}
-            <CorrectKeyDemo />
+            {/* <CorrectKeyDemo /> */}
             {/* <A /> */}
+            <EventDelegationDemo1 />
         </div>
     );
 }
