@@ -198,11 +198,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/backend/QandA/QandA.csproj",
+      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/fullstack/QandA/backend/QandA/QandA.csproj",
       "projectName": "QandA",
-      "projectPath": "/Users/mattzgg/workspace/learn-programming/backend/QandA/QandA.csproj",
+      "projectPath": "/Users/mattzgg/workspace/learn-programming/fullstack/QandA/backend/QandA/QandA.csproj",
       "packagesPath": "/Users/mattzgg/.nuget/packages/",
-      "outputPath": "/Users/mattzgg/workspace/learn-programming/backend/QandA/obj/",
+      "outputPath": "/Users/mattzgg/workspace/learn-programming/fullstack/QandA/backend/QandA/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mattzgg/.config/NuGet/NuGet.Config"
