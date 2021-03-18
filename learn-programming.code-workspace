@@ -12,6 +12,9 @@
         },
         {
             "path": "foundation/playground-ts"
+        },
+        {
+            "path": "frontend/playground-react"
         }
     ],
     "settings": {}

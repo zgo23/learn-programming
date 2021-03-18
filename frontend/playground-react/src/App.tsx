@@ -6,7 +6,10 @@ import React from "react";
 // import MyName from "./react-hooks/basics/MyNameUseSimulatedHook";
 // import { BlogApp } from "./react-hooks/blog";
 // import ErrorBoundaryExample from "./reactjs-org-docs/ErrorBoundaryExample";
-import HowContextsWork from "./react-hooks/how-contexts-work/HowContextsWorkApp";
+// import HowContextsWork from "./react-hooks/how-contexts-work/HowContextsWorkApp";
+// import ProblematicKeyDemo from "./reconciliation/element-key-prop/ProblematicKeyDemo";
+import CorrectKeyDemo from "./reconciliation/element-key-prop/CorrectKeyDemo";
+// import A from "./reconciliation/abc/AbcDemo";
 import "./App.css";
 
 function App() {
@@ -17,7 +20,10 @@ function App() {
             {/* <MyName /> */}
             {/* <BlogApp /> */}
             {/* <ErrorBoundaryExample /> */}
-            <HowContextsWork />
+            {/* <HowContextsWork /> */}
+            {/* <ProblematicKeyDemo /> */}
+            <CorrectKeyDemo />
+            {/* <A /> */}
         </div>
     );
 }
