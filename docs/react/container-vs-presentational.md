@@ -1,0 +1,2 @@
+- container component: how things work
+- presentational component: how things look

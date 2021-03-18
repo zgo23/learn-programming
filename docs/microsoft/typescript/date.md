@@ -1,0 +1,1 @@
+- **toLocaleDateString** and **toLocaleTimeString** are methods on the Date object that format the date and time according to the browser's locale.

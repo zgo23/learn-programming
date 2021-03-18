@@ -1,5 +1,6 @@
--   An ASP.NET Core app is a console app that creates a web server.
--   the ASP.NET Core app runs on the server, with the React app running on the client in the browser.
--   request/response pipeline
--   By default, the Firefox browser doesn't allow network requests for an app that has a different protocol to the backend.
--   the overall experience is a little better and faster when developing frontend code with Visual Studio Code.
+- An ASP.NET Core app is a console app that creates a web server.
+- the ASP.NET Core app runs on the server, with the React app running on the client in the browser.
+- request/response pipeline
+- By default, the Firefox browser doesn't allow network requests for an app that has a different protocol to the backend.
+- the overall experience is a little better and faster when developing frontend code with Visual Studio Code.
+- CRA installs and configures ESLint for us. We can adjust the configuration using a .eslintrc.json file.
