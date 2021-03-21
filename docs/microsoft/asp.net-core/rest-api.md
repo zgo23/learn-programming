@@ -1,0 +1,5 @@
+- An API controller is a class that handles HTTP requests for an endpoint in a REST API and sends responses back to the caller.
+- Automatic Model Validation
+- Model Binding
+  - Model binding is a process in ASP.NET that maps data from HTTP requests to action method parameters.
+  - a [FromQuery] attribute could be placed in front of the action method parameter to instruct ASP.NET to map only from the query parameter.
