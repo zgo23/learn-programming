@@ -10,24 +10,29 @@ import React from "react";
 // import ProblematicKeyDemo from "./reconciliation/element-key-prop/ProblematicKeyDemo";
 // import CorrectKeyDemo from "./reconciliation/element-key-prop/CorrectKeyDemo";
 // import A from "./reconciliation/abc/AbcDemo";
-import EventDelegationDemo1 from "./event-delegation/demo1/index";
+// import EventDelegationDemo1 from "./event-delegation/demo1/index";
+// import Demo from "./performance/react-memo-and-pure-component/TwoClassComponents";
+// import Demo from "./performance/react-memo-and-pure-component/TwoFunctionComponentsWithHooks";
+// import Demo from "./performance/react-memo-and-pure-component/OnePureComponentOneClassComponent";
+import Demo from "./performance/react-memo-and-pure-component/OnePureFunctionComponentOneFunctionComponent";
 import "./App.css";
 
 function App() {
-    return (
-        <div className="App">
-            {/* <StyledExample />
+  return (
+    <div className="App">
+      {/* <StyledExample />
             <TtlExample /> */}
-            {/* <MyName /> */}
-            {/* <BlogApp /> */}
-            {/* <ErrorBoundaryExample /> */}
-            {/* <HowContextsWork /> */}
-            {/* <ProblematicKeyDemo /> */}
-            {/* <CorrectKeyDemo /> */}
-            {/* <A /> */}
-            <EventDelegationDemo1 />
-        </div>
-    );
+      {/* <MyName /> */}
+      {/* <BlogApp /> */}
+      {/* <ErrorBoundaryExample /> */}
+      {/* <HowContextsWork /> */}
+      {/* <ProblematicKeyDemo /> */}
+      {/* <CorrectKeyDemo /> */}
+      {/* <A /> */}
+      {/* <EventDelegationDemo1 /> */}
+      <Demo />
+    </div>
+  );
 }
 
 export default App;
