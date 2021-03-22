@@ -14,7 +14,8 @@ import React from "react";
 // import Demo from "./performance/react-memo-and-pure-component/TwoClassComponents";
 // import Demo from "./performance/react-memo-and-pure-component/TwoFunctionComponentsWithHooks";
 // import Demo from "./performance/react-memo-and-pure-component/OnePureComponentOneClassComponent";
-import Demo from "./performance/react-memo-and-pure-component/OnePureFunctionComponentOneFunctionComponent";
+// import Demo from "./performance/react-memo-and-pure-component/OnePureFunctionComponentOneFunctionComponent";
+import ApgttrawjApp from "./testing/a-p-g-t-t-r-a-w-j/App";
 import "./App.css";
 
 function App() {
@@ -30,7 +31,8 @@ function App() {
       {/* <CorrectKeyDemo /> */}
       {/* <A /> */}
       {/* <EventDelegationDemo1 /> */}
-      <Demo />
+      {/* <Demo /> */}
+      <ApgttrawjApp />
     </div>
   );
 }
