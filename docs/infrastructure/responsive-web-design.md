@@ -1,0 +1,6 @@
+- Responsive Web design is the approach that suggests that design and development should respond to the user’s behavior and environment based on screen size, platform and orientation.
+- Fluid Layout + Media Query + Script
+- With responsive design, users will access **the same basic file** through their browser, regardless of device, but **CSS code** will control the layout and render it differently based on screen size.
+- [Getting Started with CSS Grid](https://css-tricks.com/getting-started-css-grid/)
+- The concept of horizontal vs. vertical layout is the essence of Responsive Design.
+- [How the Bootstrap 4 Grid Works](https://uxplanet.org/how-the-bootstrap-4-grid-works-a1b04703a3b7)

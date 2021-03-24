@@ -1,30 +1,31 @@
 ﻿<Properties StartupConfiguration="{735C5374-0949-4FE8-B1A0-B322271F015C}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Controllers/QuestionsController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SQLScripts/01-Tables.sql">
     <Files>
       <File FileName="Controllers/QuestionsController.cs" Line="115" Column="1" />
-      <File FileName="Data/Models/QuestionGetManyResponse.cs" Line="4" Column="18" />
-      <File FileName="Data/Models/AnswerPostRequest.cs" Line="19" Column="1" />
-      <File FileName="Data/IDataRepository.cs" Line="19" Column="52" />
-      <File FileName="Data/DataRepository.cs" Line="83" Column="66" />
-      <File FileName="Data/Models/QuestionPostRequest.cs" Line="13" Column="44" />
-      <File FileName="Data/Models/AnswerGetResponse.cs" Line="1" Column="1" />
-      <File FileName="Data/Models/QuestionPutRequest.cs" Line="16" Column="1" />
-      <File FileName="Data/Models/QuestionPostFullRequest.cs" Line="10" Column="46" />
-      <File FileName="Data/Models/AnswerPostFullRequest.cs" Line="10" Column="46" />
+      <File FileName="Data/Models/QuestionGetManyResponse.cs" />
+      <File FileName="Data/Models/AnswerPostRequest.cs" />
+      <File FileName="Data/IDataRepository.cs" />
+      <File FileName="Data/DataRepository.cs" />
+      <File FileName="Data/Models/QuestionPostRequest.cs" />
+      <File FileName="Data/Models/AnswerGetResponse.cs" />
+      <File FileName="Data/Models/QuestionPutRequest.cs" />
+      <File FileName="Data/Models/QuestionPostFullRequest.cs" />
+      <File FileName="Data/Models/AnswerPostFullRequest.cs" />
+      <File FileName="SQLScripts/01-Tables.sql" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="QandA" expanded="True">
             <Node name="QandA" expanded="True">
-              <Node name="Controllers" expanded="True">
-                <Node name="QuestionsController.cs" selected="True" />
-              </Node>
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True">
                 <Node name="Models" expanded="True" />
               </Node>
               <Node name="Properties" expanded="True" />
-              <Node name="SQLScripts" expanded="True" />
+              <Node name="SQLScripts" expanded="True">
+                <Node name="01-Tables.sql" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
