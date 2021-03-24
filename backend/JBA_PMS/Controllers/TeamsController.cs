@@ -21,10 +21,30 @@ namespace JBA_PMS.Controllers
             _rugbyUnionContext = rugbyUnionContext;
         }
     
-            [HttpGet]
-        public IEnumerable<Team> Get()
+        [HttpGet]
+        public IEnumerable<Team> GetTeams()
         {
             return _rugbyUnionContext.Teams;
+        }
+
+        //[HttpGet("{teamID}")]
+        //public ActionResult<Team> GetTeam(int teamID)
+        //{
+
+        //}
+
+        [HttpPost]
+        public ActionResult<Team> AddTeam(Team team)
+        {
+            // Check whether the name has been used.
+            Team targetTeam = _rugbyUnionContext.Teams.Where(t => t.Name == team.Name).FirstOrDefault<Team>();
+            if (targetTeam == null)
+            {
+                return 
+            }
+
+            _rugbyUnionContext.Teams.Add(team);
+            _rugbyUnionContext.SaveChanges();
         }
 
         //// GET api/values/5
