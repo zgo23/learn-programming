@@ -12,6 +12,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 using Supermarket.API.Persistence.Contexts;
 using Supermarket.API.Domain.Repositories;
 using Supermarket.API.Domain.Services;
@@ -45,6 +46,9 @@ namespace Supermarket.API
             });
             services.AddScoped<ICategoryRepository, CategoryRepository>();
             services.AddScoped<ICategoryService, CategoryService>();
+
+            // Configure AutoMapper
+            services.AddAutoMapper(typeof(Startup));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
