@@ -6,6 +6,7 @@
 - Dynamic Proxy is a runtime proxy class which wraps POCO entity. Dynamic proxy entities allow lazy loading.
 - Microsoft.EntityFrameworkCore.EntityState
 - EF Core DB providers
+- EF Core API does not require an asynchronous method to update models.
 
 # Dependencies
 
