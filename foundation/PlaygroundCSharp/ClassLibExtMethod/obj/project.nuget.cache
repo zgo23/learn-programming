@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mUUVMTmcstdh8PBR5yFmnLsvKU4Ukd+ayrZmKLzAbu2L6JmApGGe5KcewG9cNgXv7qFdbSNfSxuka8++YQrdwg==",
+  "dgSpecHash": "ZhPfLpOmO1vaKnpzC/GtglCSLMztnWWGj1V8I0v2igl7JmtjPM34O/kETLyY1OB6SJs5pZs634bMJcGEib61AA==",
   "success": true,
-  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/ClassLibExtMethod.csproj",
+  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/ClassLibExtMethod/ClassLibExtMethod.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

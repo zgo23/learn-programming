@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "H0CQbIhslOa7WWc3W1w/w6A1oonwCXMk9OruoJDm9HuXbvBV2hZcfn2uQnqaqhOIab2JpjjSX1UmavSApPXokg==",
+  "dgSpecHash": "9jsNAHYp2uSNzrTwUx750qaZKd4Aa+Aku5oIwEmEW3lllbbQJ/xVNwxGiUdD3DjjIANPkp4vWVeXlZ6X5d8zXQ==",
   "success": true,
-  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld.Test/HelloWorld.Test.csproj",
+  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld.Test/HelloWorld.Test.csproj",
   "expectedPackageFiles": [
     "/Users/mattzgg/.nuget/packages/coverlet.collector/1.2.0/coverlet.collector.1.2.0.nupkg.sha512",
     "/Users/mattzgg/.nuget/packages/microsoft.codecoverage/16.5.0/microsoft.codecoverage.16.5.0.nupkg.sha512",

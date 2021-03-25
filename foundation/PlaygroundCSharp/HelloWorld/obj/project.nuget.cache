@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JI++wrDLSqT2UCXChrmTxJXVm20h4h3B0JXFsvYdXWny4UbEIq6vd3+UiER7H2/RjcucokkFYxlSZVq4BEiUfw==",
+  "dgSpecHash": "dzN7/goPW6pFbzkYE4NMgbK/WcBaCm+TuOA/PBGkDrjgkB55mHNnhoDUsWCmuHAL+9ZEdQR0gfMFcsImofNa4Q==",
   "success": true,
-  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld/HelloWorld.csproj",
+  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld/HelloWorld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

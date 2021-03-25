@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "noaDiLlb+rk55pUSvjkKkSLqlyRswZhjFEcxFWBLKFxoZDr+xxURR2qnR6qYXvPe5pSxPvtcd1MCsxobxixPvw==",
+  "dgSpecHash": "qBWgw52awm/wykVIstR8l60qBCTmdmvApDUaU9bz266atRc6CefDx2fU+znev0Nb0oa2zcltvEre6p0TIeLNRw==",
   "success": true,
-  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/FundamentalDataTypes.csproj",
+  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/FundamentalDataTypes/FundamentalDataTypes.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

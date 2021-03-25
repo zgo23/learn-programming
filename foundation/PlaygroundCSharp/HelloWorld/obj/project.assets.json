@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld/HelloWorld.csproj",
+      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld/HelloWorld.csproj",
       "projectName": "HelloWorld",
-      "projectPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld/HelloWorld.csproj",
+      "projectPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld/HelloWorld.csproj",
       "packagesPath": "/Users/mattzgg/.nuget/packages/",
-      "outputPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld/obj/",
+      "outputPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mattzgg/.config/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

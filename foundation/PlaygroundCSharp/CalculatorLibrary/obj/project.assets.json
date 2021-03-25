@@ -57,11 +57,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj",
+      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj",
       "projectName": "CalculatorLibrary",
-      "projectPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj",
+      "projectPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.csproj",
       "packagesPath": "/Users/mattzgg/.nuget/packages/",
-      "outputPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/CalculatorLibrary/obj/",
+      "outputPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/CalculatorLibrary/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mattzgg/.config/NuGet/NuGet.Config"
@@ -108,7 +108,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

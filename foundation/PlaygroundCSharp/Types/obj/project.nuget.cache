@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/ftxr3zmiT910lSeTTp7/1AbBZ2xILSSw4yQsoe1ANRiPuBD1iYDilHAqoz/0F5g5m6dJBZ8GM2IBq+Iwf5T7g==",
+  "dgSpecHash": "jOn3mIzkn3ALlnl2T4A/S+jF05kbJVv1CcZ6rySYWW2oehWNBAcx764LTw4xJAbt3uRTxYgee4hwpAZKW5Xf8Q==",
   "success": true,
-  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/Types/Types.csproj",
+  "projectFilePath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/Types/Types.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

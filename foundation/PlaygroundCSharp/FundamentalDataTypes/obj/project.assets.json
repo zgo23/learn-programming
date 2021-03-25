@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/FundamentalDataTypes.csproj",
+      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/FundamentalDataTypes/FundamentalDataTypes.csproj",
       "projectName": "FundamentalDataTypes",
-      "projectPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/FundamentalDataTypes.csproj",
+      "projectPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/FundamentalDataTypes/FundamentalDataTypes.csproj",
       "packagesPath": "/Users/mattzgg/.nuget/packages/",
-      "outputPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/FundamentalDataTypes/obj/",
+      "outputPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/FundamentalDataTypes/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mattzgg/.config/NuGet/NuGet.Config"
@@ -51,8 +51,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/ClassLibExtMethod.csproj": {
-              "projectPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/ClassLibExtMethod/ClassLibExtMethod.csproj"
+            "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/ClassLibExtMethod/ClassLibExtMethod.csproj": {
+              "projectPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/ClassLibExtMethod/ClassLibExtMethod.csproj"
             }
           }
         }
@@ -81,7 +81,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }

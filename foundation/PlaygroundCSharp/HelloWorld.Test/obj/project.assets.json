@@ -5737,11 +5737,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld.Test/HelloWorld.Test.csproj",
+      "projectUniqueName": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld.Test/HelloWorld.Test.csproj",
       "projectName": "HelloWorld.Test",
-      "projectPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld.Test/HelloWorld.Test.csproj",
+      "projectPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld.Test/HelloWorld.Test.csproj",
       "packagesPath": "/Users/mattzgg/.nuget/packages/",
-      "outputPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld.Test/obj/",
+      "outputPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld.Test/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mattzgg/.config/NuGet/NuGet.Config"
@@ -5756,8 +5756,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld/HelloWorld.csproj": {
-              "projectPath": "/Users/mattzgg/workspace/learn-programming/dotnet/PlaygroundCSharp/HelloWorld/HelloWorld.csproj"
+            "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld/HelloWorld.csproj": {
+              "projectPath": "/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/HelloWorld/HelloWorld.csproj"
             }
           }
         }
@@ -5804,7 +5804,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
       }
     }
   }
