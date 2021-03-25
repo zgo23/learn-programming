@@ -1,21 +1,12 @@
 {
-    "folders": [
-        {
-            "name": "docs",
-            "path": "docs"
-        },
-        {
-            "path": "backend/playground-node"
-        },
-        {
-            "path": "foundation/ts-monorepo"
-        },
-        {
-            "path": "foundation/playground-ts"
-        },
-        {
-            "path": "frontend/playground-react"
-        }
-    ],
-    "settings": {}
+  "folders": [
+    {
+      "name": "docs",
+      "path": "docs"
+    },
+    {
+      "path": "backend/Supermarket.API"
+    }
+  ],
+  "settings": {}
 }
