@@ -1,36 +1,46 @@
 ﻿<Properties StartupConfiguration="{12C7E944-0BE0-4297-86F0-476876D04A85}|Default">
   <MonoDevelop.Ide.ItemProperties.FundamentalDataTypes PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Calculator PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Asynchronicity/TasksForIOBoundOperations/FirstExample.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Asynchronicity/Tasks/AsyncAwaitMechanics.cs">
     <Files>
-      <File FileName="Types/Members/DeconstructorExample.cs" Line="52" Column="18" />
-      <File FileName="Types/Program.cs" />
-      <File FileName="Types/Members/MethodExample.cs" Line="16" Column="10" />
-      <File FileName="Asynchronicity/Program.cs" Line="11" Column="29" />
-      <File FileName="Asynchronicity/TasksForIOBoundOperations/FirstExample.cs" Line="7" Column="10" />
+      <File FileName="Asynchronicity/Tasks/ARidiculousAwaiterImpl.cs" Line="36" Column="1" />
+      <File FileName="Asynchronicity/Program.cs" Line="17" Column="39" />
+      <File FileName="Asynchronicity/Tasks/AsyncAwaitMechanics.cs" Line="96" Column="45" />
+      <File FileName="Asynchronicity/Threads/JoinExamples.cs" Line="35" Column="2" />
+      <File FileName="BasicSyntax/Program.cs" Line="2" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PlaygroundCSharp" expanded="True">
-            <Node name="Asynchronicity" expanded="True">
-              <Node name="TasksForIOBoundOperations" expanded="True">
-                <Node name="FirstExample.cs" selected="True" />
+            <Node name="AsynchronousProgramming" expanded="True">
+              <Node name="Tasks" expanded="True">
+                <Node name="AsyncAwaitMechanics.cs" selected="True" />
               </Node>
+              <Node name="Threads" expanded="True" />
+            </Node>
+            <Node name="BasicSyntax" expanded="True">
+              <Node name="GoToStatements" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="PlaygroundCSharp" expanded="True" selected="True" />
+        </State>
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Asynchronicity PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.BasicSyntax PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/mattzgg/workspace/learn-programming/foundation/PlaygroundCSharp/CalculatorLibrary/CalculatorLibrary.cs" relfile="CalculatorLibrary/CalculatorLibrary.cs" line="45" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.AsynchronousProgramming PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.Types PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

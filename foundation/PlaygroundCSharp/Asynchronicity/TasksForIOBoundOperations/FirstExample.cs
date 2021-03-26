@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using System.Net.Http;
 using static System.Console;
-namespace Asynchronicity.TasksForIOBoundOperations
+namespace AsynchronousProgramming.TasksForIOBoundOperations
 {
     public class FirstExample
     {

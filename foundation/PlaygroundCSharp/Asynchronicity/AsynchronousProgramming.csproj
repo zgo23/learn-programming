@@ -7,5 +7,7 @@
 
   <ItemGroup>
     <Folder Include="TasksForIOBoundOperations\" />
+    <Folder Include="Tasks\" />
+    <Folder Include="Threads\" />
   </ItemGroup>
 </Project>
