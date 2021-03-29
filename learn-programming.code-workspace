@@ -6,6 +6,9 @@
     },
     {
       "path": "backend/Supermarket.API"
+    },
+    {
+      "path": "foundation/Practice.LINQ"
     }
   ],
   "settings": {}
